@@ -1,0 +1,48 @@
+.main-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-container {
+    display: flex;
+    width: inherit;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.window {
+    display: flex;
+    height: 30vh;
+    width: 40vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    font-size: 60px;
+    color: white;
+    height: 20vh;
+}
+
+.button-blue {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgb(0, 140, 186);
+    padding: 15px 40px;
+    border-radius: 5px;
+    font-weight: normal;
+    transition: all 0.2s ease-in-out;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.button-blue:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(0, 140, 186, .4);
+}
+
